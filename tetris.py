@@ -18,6 +18,8 @@ AMARILLO = (255, 255, 0)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 NARANJA = (255, 165, 0)
+ROSA = (255, 192, 203)
+VERDEOSCURO = (0, 100, 0)
 
 # Tamaño de cada bloque del Tetris
 tamano_bloque = 30
