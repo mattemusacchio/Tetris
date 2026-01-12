@@ -19,6 +19,8 @@ MAGENTA = (255, 0, 255)
 NARANJA = (255, 165, 0)
 ROSA = (255, 192, 203)
 VERDEOSCURO = (0, 100, 0)
+ROSA = (255, 192, 203)
+VERDEOSCURO = (0, 100, 0)
 
 # Tamaño de cada bloque del Tetris
 tamano_bloque = 30
@@ -159,3 +161,4 @@ while not game_over:
     """
     pygame.display.flip()
 pygame.display.flip()
+

@@ -21,6 +21,8 @@ MAGENTA = (223, 60, 232)
 NARANJA = (255, 165, 0)
 ROSA = (255, 192, 203)
 VERDEOSCURO = (0, 100, 0)
+ROSA = (255, 192, 203)
+VERDEOSCURO = (0, 100, 0)
 
 # Tamaño de cada bloque del Tetris
 tamano_bloque = 30
@@ -160,4 +162,5 @@ print("¡Juego terminado!")
 print("Puntaje final:", puntaje)
 
 pygame.quit()
+
 
