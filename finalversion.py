@@ -20,6 +20,9 @@ AMARILLO = (255, 255, 0)
 CYAN = (16, 165, 179)
 MAGENTA = (223, 60, 232)
 NARANJA = (255, 165, 0)
+TURQUESA = (0, 255, 255)
+ROSAS = (255, 105, 180)
+VERDE_OSCURO = (34, 139, 34)
 
 # Tamaño de cada bloque del Tetris
 tamano_bloque = 30
@@ -94,7 +97,7 @@ formas = [
 ]
 
 # Crear una lista de colores para las piezas
-colores = [ROJO, VERDE, AZUL, AMARILLO, CYAN, MAGENTA, NARANJA]
+colores = [ROJO, VERDE, AZUL, AMARILLO, CYAN, MAGENTA, NARANJA, TURQUESA, ROSA, VERDE_OSCURO]
 
 # Función para crear una nueva pieza aleatoria
 def nueva_pieza():
