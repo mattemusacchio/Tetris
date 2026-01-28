@@ -18,6 +18,7 @@ AMARILLO = (255, 255, 0)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 NARANJA = (255, 165, 0)
+GRIS = (128, 128, 128)
 
 # Tamaño de cada bloque del Tetris
 tamano_bloque = 30
@@ -56,7 +57,7 @@ class Pieza:
         for i in range(len(self.forma)):
             for j in range(len(self.forma[i])):
                 if self.forma[i][j] == "X":
-                    pygame.draw.rect(pantalla, self.color, (self.x * tamano_bloque + j * tamano_bloque, self.y * tamano_bloque + i * tamano_bloque, tamano_bloque, tamano_bloque))
+                    pygame.draw.rect(pantalla, GRIS, (self.x * tamano_bloque + j * tamano_bloque, self.y * tamano_bloque + i * tamano_bloque, tamano_bloque, tamano_bloque))
                     pygame.draw.rect(pantalla, NEGRO, (self.x * tamano_bloque + j * tamano_bloque, self.y * tamano_bloque + i * tamano_bloque, tamano_bloque, tamano_bloque), 1)
     
     def colision(self, tablero):
